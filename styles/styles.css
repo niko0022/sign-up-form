@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Norse bold";
+    src: url('../fonts/Norse-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#f5f5f5;
+}
+
+.image-container {
+    display: flex;
+}
+
+img {
+    width: 885px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 15px;
+    left: 300px;
+    padding: 0%;
+    margin: 0%;
+    color: #f0f0f0;
+}
+
+a {
+    color: #f0f0f0;
+}
+
+.logo {
+    padding: 20px;
+    width: 844px;
+    background-color: rgba(0, 0, 0, 0.527);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Adds a soft shadow around the container */
+    position: absolute;
+    bottom: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+    color: #f0f0f0;
+    font-family: "Norse bold";
+    font-size: 110px;
+}
+
+.odin-logo {
+    width: 180px;
+}
+
+.form-header-container {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.form-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    padding: 0%;
+    opacity: 0.898;
+    margin-left: 78px;
+}
+
+.form-header1 {
+    margin-top: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    padding: 0%;
+    opacity: 0.898;
+    margin-left: 78px;
+    position: relative;
+    top: 75px;
+}
+
+.form-container {
+    display: flex;
+    background-color: white; /* Background color */
+    padding: 30px;
+    padding-top: 70px;
+    border-radius: 2px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    width: 1548px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 48px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 87px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #596D48;
+    border-radius: 6px;
+    border: 1px solid #596D48;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 78px;
+    margin-top: 40px;
+}
+
+.login {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 78px;
+    margin-top: 40px;
+}
+.login-link {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+input:invalid {
+    border: 1px solid red ;
+}
+
+form input:focus {
+    border: 1px solid blue !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important; /* Shadow effect */
+}
